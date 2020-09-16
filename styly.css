@@ -10,18 +10,29 @@ body {
   font-family: sans-serif;
   color: #fff;
   background-image: linear-gradient(#615dad, #ffc8da);
+  line-height: 1.5;
 }
 
-.image-detail {
+.container {
+  width: 450px;
+  margin: auto;
+  text-align: center;
+}
+
+.image {
   width: 100%;
 }
 
 .text {
   background-color: #283e50;
+  padding: 15px;
 }
 
 .heading {
   font-family: "Lobster", cursive;
+  font-size: 3em;
+  font-weight: normal;
+  margin: 0;
 }
 
 .buttons__list {
@@ -34,15 +45,27 @@ body {
 }
 
 .buttons__link {
-  display: inline-block;
+  display: block;
   color: #fff;
   text-decoration: none;
+  padding: 15px;
 }
 
 .buttons__link--green {
   background-color: #1fcca4;
+  border-bottom: 1px solid black;
+}
+
+.buttons__link--green:hover,
+.buttons__link--green:active {
+  background-color: #1cbb96;
 }
 
 .buttons__link--blue {
   background-color: #0197f6;
+}
+
+.buttons__link--blue:hover,
+.buttons__link--blue:active {
+  background-color: #0090e9;
 }
