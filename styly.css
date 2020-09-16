@@ -1,0 +1,48 @@
+/* 
+Gradient v pozadí jde z fialové #615dad do růžové #ffc8da.
+Barva textu #ffffff.
+Podkladová tmavě modrá #283e50.
+Tlačítko Pravidla #1fcca4. A po najetí myši #1cbb96.
+Tlačítko Začít hrát #0197f6. Po najetí #0090e9.
+*/
+
+body {
+  font-family: sans-serif;
+  color: #fff;
+  background-image: linear-gradient(#615dad, #ffc8da);
+}
+
+.image-detail {
+  width: 100%;
+}
+
+.text {
+  background-color: #283e50;
+}
+
+.heading {
+  font-family: "Lobster", cursive;
+}
+
+.buttons__list {
+  margin: 0;
+  padding: 0;
+}
+
+.buttons__item {
+  list-style-type: none;
+}
+
+.buttons__link {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.buttons__link--green {
+  background-color: #1fcca4;
+}
+
+.buttons__link--blue {
+  background-color: #0197f6;
+}
