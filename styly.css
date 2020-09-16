@@ -9,15 +9,22 @@ Tlačítko Začít hrát #0197f6. Po najetí #0090e9.
 body {
   font-family: sans-serif;
   color: #fff;
+  line-height: 1.5;
   background-image: linear-gradient(#615dad, #ffc8da);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  line-height: 1.5;
 }
 
-.container {
+.container-out {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container-in {
   width: 450px;
-  margin: auto;
 }
 
 .image {
